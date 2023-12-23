@@ -3,7 +3,6 @@
 ## General info
 The web app for sentiment analysis of clothes reviews. In this project I develop a REST API using the Python Flask framework and ML pretrained model. It is a simple method on implementing machine learning APIs.
 
-The project and code for this pretrained model is available [here](https://github.com/aniass/Sentiment-analysis-reviews).
 
 ### Project includes:
 - Flask API script - **app.py**
