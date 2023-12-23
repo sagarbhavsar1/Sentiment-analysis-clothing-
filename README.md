@@ -4,8 +4,8 @@
 The web app for sentiment analysis of clothes reviews. In this project I develop a REST API using the Python Flask framework and ML pretrained model. It is a simple method on implementing machine learning APIs.
 
 Team:- 
--Sagar Bhavsar (sb9568) /n
--Vrushti Gangwal (vg2491)
+Sagar Bhavsar (sb9568)  
+  Vrushti Gangwal (vg2491)
 
 ### Project includes:
 - Flask API script - **app.py**
