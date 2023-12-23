@@ -1,29 +1,30 @@
-# Sentiment-analysis-clothing-
+# Sentiment analysis app
 
-General Info
-This web app performs sentiment analysis on clothing reviews, featuring a REST API built using the Python Flask framework and a machine learning pretrained model. The addition of a login page, with sign-up and sign-in functionality, enhances user interaction and security. The project effectively demonstrates the implementation of machine learning APIs in web applications.
+## General info
+The web app for sentiment analysis of clothes reviews. In this project I develop a REST API using the Python Flask framework and ML pretrained model. It is a simple method on implementing machine learning APIs.
+
+The project and code for this pretrained model is available [here](https://github.com/aniass/Sentiment-analysis-reviews).
+
+### Project includes:
+- Flask API script - **app.py**
+- script to build and pickle the classifier model - **training_model.py**
+- models - pickled pretrained model used in app,
+- templates, static - HTML files for the front-end.
 
 
-Project Includes:
-Flask API script - app.py
-Script to build and pickle the classifier model - training_model.py
-Models - pickled pretrained model used in the app
-Templates, static - HTML files for the front-end, including login pages
-Technologies
-The project is created with:
+### Technologies
 
-Python 3.6, Flask
-HTML, CSS
-Libraries: pandas, regex, nltk, scikit-learn, joblib
-New Features
-Login Page: Provides user authentication with sign-up and sign-in options, enhancing security and personalization.
-User Interface: Updated UI to accommodate new login features while maintaining a seamless user experience.
-Running the App:
-To run this app, install the required packages locally:
+Project is created with:
+- Python 3.6, Flask;
+- HTML, CSS;
+- libraries: pandas, regex, nltk, scikit-learn, joblib.
 
-Copy code
-pip install -r requirements.txt
-Download the project files to your system, navigate to the folder where these files are located, and run the script:
+**Running the app:**
 
-Copy code
-app.py
+To run this app install locally packages:
+
+    pip install -r requirements.txt
+
+Next download the project files to your system, then go to the folder/directory where these files reside and run the script:
+
+    app.py
